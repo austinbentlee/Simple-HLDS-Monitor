@@ -1,0 +1,5 @@
+First, you'll want to set up the mail command to start working. You can configure it to work with Google's SMTP, but you will have to whitelist the FROM address in your inbox.
+
+Second, you'll want to modify "run.sh" to have the correct HLDS host and port(s). You'll also want to change the email so you receive the alerts.
+
+Finally, you'll want to add run.sh as a periodic cronjob so you can know when your server goes down!
